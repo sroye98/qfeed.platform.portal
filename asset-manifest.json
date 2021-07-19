@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/qfeed.platform.portal/static/css/main.396c45f8.chunk.css",
+    "main.js": "/qfeed.platform.portal/static/js/main.17f7b158.chunk.js",
+    "main.js.map": "/qfeed.platform.portal/static/js/main.17f7b158.chunk.js.map",
+    "runtime-main.js": "/qfeed.platform.portal/static/js/runtime-main.326f9735.js",
+    "runtime-main.js.map": "/qfeed.platform.portal/static/js/runtime-main.326f9735.js.map",
+    "static/css/2.81b0985c.chunk.css": "/qfeed.platform.portal/static/css/2.81b0985c.chunk.css",
+    "static/js/2.db90c34f.chunk.js": "/qfeed.platform.portal/static/js/2.db90c34f.chunk.js",
+    "static/js/2.db90c34f.chunk.js.map": "/qfeed.platform.portal/static/js/2.db90c34f.chunk.js.map",
+    "static/js/3.e4eb5ca1.chunk.js": "/qfeed.platform.portal/static/js/3.e4eb5ca1.chunk.js",
+    "static/js/3.e4eb5ca1.chunk.js.map": "/qfeed.platform.portal/static/js/3.e4eb5ca1.chunk.js.map",
+    "index.html": "/qfeed.platform.portal/index.html",
+    "static/css/2.81b0985c.chunk.css.map": "/qfeed.platform.portal/static/css/2.81b0985c.chunk.css.map",
+    "static/css/main.396c45f8.chunk.css.map": "/qfeed.platform.portal/static/css/main.396c45f8.chunk.css.map",
+    "static/js/2.db90c34f.chunk.js.LICENSE.txt": "/qfeed.platform.portal/static/js/2.db90c34f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.326f9735.js",
+    "static/css/2.81b0985c.chunk.css",
+    "static/js/2.db90c34f.chunk.js",
+    "static/css/main.396c45f8.chunk.css",
+    "static/js/main.17f7b158.chunk.js"
+  ]
+}

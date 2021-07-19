@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,MACE,UAAW,CACX,WAAY,CACZ,WAAY,CACZ,uBAAwB,CACxB,6BACF","file":"main.396c45f8.chunk.css","sourcesContent":[".logo {\n  float: left;\n  width: 120px;\n  height: 31px;\n  margin: 16px 24px 16px 0;\n  background: rgba(255, 255, 255, 0.3);\n}\n"]}
