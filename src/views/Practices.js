@@ -1,12 +1,19 @@
 import React, { useState } from 'react';
-import { Button, DatePicker, Form, Input, Modal, PageHeader, Space, Table } from 'antd';
-import { CheckCircleOutlined, CloseOutlined, MailOutlined } from '@ant-design/icons';
+import { Button, DatePicker, Dropdown, Form, Input, Menu, Modal, PageHeader, Space, Table } from 'antd';
+import { CheckCircleOutlined, CloseOutlined, DownOutlined, MailOutlined } from '@ant-design/icons';
 
 import { practices } from '../constants/StaticData';
 
 const { Column } = Table;
 
 const data = practices;
+
+const filterMenu = (
+    <Menu>
+        <Menu.Item>Signed Up</Menu.Item>
+        <Menu.Item>Not Signed Up</Menu.Item>
+    </Menu>
+);
 
 const Practices = (props) => {
     const [isPracticeModalVisible, setIsPracticeModalVisible] = useState(false);
@@ -24,21 +31,26 @@ const Practices = (props) => {
             <PageHeader
                 title="Current Practices"
                 extra={[
+                    <Dropdown overlay={filterMenu}>
+                        <Button>
+                            Filter <DownOutlined />
+                        </Button>
+                    </Dropdown>,
                     <Button key="1" type="primary" onClick={showPracticeModal}>
                         Invite New Practice
                     </Button>,
                 ]} />
             <Table dataSource={data}>
-                <Column title="Name" key="practiceName" render={(record) => (
-                    <Button type="link" onClick={showPracticeModal}>{record.fullName}</Button>
+                <Column title="Name" key="practiceName" sorter={{ compare: (a, b) => a.practiceName.localeCompare(b.practiceName) }} render={(record) => (
+                    <Button type="link" onClick={showPracticeModal}>{record.practiceName}</Button>
                 )} />
-                <Column title="administrator" dataIndex="administrator" key="administrator" />
-                <Column title="Email" dataIndex="email" key="email" />
+                <Column title="administrator" dataIndex="administrator" key="administrator" sorter={{ compare: (a, b) => a.administrator.localeCompare(b.administrator) }} />
+                <Column title="Email" dataIndex="email" key="email" sorter={{ compare: (a, b) => a.email.localeCompare(b.email) }} />
                 <Column title="Phone" dataIndex="phone" key="phone" />
-                <Column title="Signed Up" key="signedUp" render={(record) => record.signedUp ? (<CheckCircleOutlined />) : (<CloseOutlined />)} />
+                <Column title="Signed Up" key="signedUp" sorter={{ compare: (a, b) => a.signedUp - b.signedUp }} render={(record) => record.signedUp ? (<CheckCircleOutlined />) : (<CloseOutlined />)} />
                 <Column title="Action" key="action" render={() => (
                     <Space size="middle">
-                        <Button type="primary" icon={<MailOutlined />} onClick={showPracticeModal}>Resend Invite</Button>
+                        <Button type="primary" icon={<MailOutlined />}>Resend Invite</Button>
                     </Space>
                 )} />
             </Table>
