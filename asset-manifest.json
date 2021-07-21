@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/qfeed.platform.portal/static/css/main.396c45f8.chunk.css",
-    "main.js": "/qfeed.platform.portal/static/js/main.739da5a6.chunk.js",
-    "main.js.map": "/qfeed.platform.portal/static/js/main.739da5a6.chunk.js.map",
-    "runtime-main.js": "/qfeed.platform.portal/static/js/runtime-main.79648cfc.js",
-    "runtime-main.js.map": "/qfeed.platform.portal/static/js/runtime-main.79648cfc.js.map",
+    "main.js": "/qfeed.platform.portal/static/js/main.4bcbc3d6.chunk.js",
+    "main.js.map": "/qfeed.platform.portal/static/js/main.4bcbc3d6.chunk.js.map",
+    "runtime-main.js": "/qfeed.platform.portal/static/js/runtime-main.7461c074.js",
+    "runtime-main.js.map": "/qfeed.platform.portal/static/js/runtime-main.7461c074.js.map",
     "static/css/2.81b0985c.chunk.css": "/qfeed.platform.portal/static/css/2.81b0985c.chunk.css",
-    "static/js/2.7bbc230e.chunk.js": "/qfeed.platform.portal/static/js/2.7bbc230e.chunk.js",
-    "static/js/2.7bbc230e.chunk.js.map": "/qfeed.platform.portal/static/js/2.7bbc230e.chunk.js.map",
-    "static/js/3.2168a6e6.chunk.js": "/qfeed.platform.portal/static/js/3.2168a6e6.chunk.js",
-    "static/js/3.2168a6e6.chunk.js.map": "/qfeed.platform.portal/static/js/3.2168a6e6.chunk.js.map",
+    "static/js/2.4651378e.chunk.js": "/qfeed.platform.portal/static/js/2.4651378e.chunk.js",
+    "static/js/2.4651378e.chunk.js.map": "/qfeed.platform.portal/static/js/2.4651378e.chunk.js.map",
+    "static/js/3.b6595024.chunk.js": "/qfeed.platform.portal/static/js/3.b6595024.chunk.js",
+    "static/js/3.b6595024.chunk.js.map": "/qfeed.platform.portal/static/js/3.b6595024.chunk.js.map",
     "index.html": "/qfeed.platform.portal/index.html",
     "static/css/2.81b0985c.chunk.css.map": "/qfeed.platform.portal/static/css/2.81b0985c.chunk.css.map",
     "static/css/main.396c45f8.chunk.css.map": "/qfeed.platform.portal/static/css/main.396c45f8.chunk.css.map",
-    "static/js/2.7bbc230e.chunk.js.LICENSE.txt": "/qfeed.platform.portal/static/js/2.7bbc230e.chunk.js.LICENSE.txt"
+    "static/js/2.4651378e.chunk.js.LICENSE.txt": "/qfeed.platform.portal/static/js/2.4651378e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.79648cfc.js",
+    "static/js/runtime-main.7461c074.js",
     "static/css/2.81b0985c.chunk.css",
-    "static/js/2.7bbc230e.chunk.js",
+    "static/js/2.4651378e.chunk.js",
     "static/css/main.396c45f8.chunk.css",
-    "static/js/main.739da5a6.chunk.js"
+    "static/js/main.4bcbc3d6.chunk.js"
   ]
 }
